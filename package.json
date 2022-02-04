@@ -20,5 +20,8 @@
     "writing",
     "stats",
     "word count"
-  ]
+  ],
+  "publishConfig": {
+    "tag": "latest"
+  }
 }
