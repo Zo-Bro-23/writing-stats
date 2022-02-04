@@ -6,7 +6,7 @@ const writingStats = require('writing-stats')
 console.log(writingStats('essay.txt'))
 ```
 
-```writingStatus(file, lineCount, aboveAverageBuffer, belowAverageBuffer, sentenceEndCharacters, paragraphEndCharacter)```
+### **```writingStatus(file, lineCount, aboveAverageBuffer, belowAverageBuffer, sentenceEndCharacters, paragraphEndCharacter)```**
 
 **```file - Filepath to pass to fs module```**
 
