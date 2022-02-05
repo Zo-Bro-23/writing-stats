@@ -8,17 +8,17 @@ console.log(writingStats('essay.txt'))
 
 ### **```writingStatus(file, lineCount, aboveAverageBuffer, belowAverageBuffer, sentenceEndCharacters, paragraphEndCharacter)```**
 
-**```file - Filepath to pass to fs module```**
+```file - Filepath to pass to fs module```
 
-**```lineCount - Number of \n characters per paragraph```**
+```lineCount - Number of \n characters per paragraph```
 
-**```aboveAverageBuffer - Number of words (more than the average sentence length) needed to count as an "Above Average" sentence```**
+```aboveAverageBuffer - Number of words (more than the average sentence length) needed to count as an "Above Average" sentence```
 
-**```belowAverageBuffer - Number of words (less than the average sentence length) to count as a "Below Average" sentence```**
+```belowAverageBuffer - Number of words (less than the average sentence length) to count as a "Below Average" sentence```
 
-**```sentenceEndCharacters - List of characters (as Array) that mark the end of a sentence. For example, [".", "?", "!"]```**
+```sentenceEndCharacters - List of characters (as Array) that mark the end of a sentence. For example, [".", "?", "!"]```
 
-**```paragraphEndCharacter - Character that marks the end of a paragraph - Newline character```**
+```paragraphEndCharacter - Character that marks the end of a paragraph - Newline character```
 
 ## Result
 ```js
