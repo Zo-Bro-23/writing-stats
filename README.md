@@ -2,13 +2,14 @@
 This is a simple package to get stats (such as word count, paragraph density, etc) from a TXT file.
 ```js
 const writingStats = require('writing-stats')
+const fs = require('fs')
 
-console.log(writingStats('essay.txt'))
+console.log(writingStats(fs.readFileSync('essay.txt', 'utf-8')))
 ```
 
-### **```writingStatus(file, lineCount, aboveAverageBuffer, belowAverageBuffer, sentenceEndCharacters, paragraphEndCharacter)```**
+### **```writingStatus(input, lineCount, aboveAverageBuffer, belowAverageBuffer, sentenceEndCharacters, paragraphEndCharacter)```**
 
-```file - Filepath to pass to fs module```
+```input - Input text - I would recommend using fs to read from a TXT file rather than pass a string because javascript doesn't handle some chracters such as apostrophes, new-line, etc```
 
 ```lineCount - Number of \n characters per paragraph```
 

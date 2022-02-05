@@ -1,9 +1,9 @@
-function writingStats(inputFile, inputLineCount, inputAboveAverageBuffer, inputBelowAverageBuffer, inputSentenceEndCharacters, inputParagraphEndCharacter) {
+function writingStats(input, inputLineCount, inputAboveAverageBuffer, inputBelowAverageBuffer, inputSentenceEndCharacters, inputParagraphEndCharacter) {
     const fs = require('fs')
     if (typeof inputFile !== 'string') {
         throw new Error('Parameter `inputFile` must be of type string!')
     }
-    file = fs.readFileSync(inputFile, 'utf8')
+    file = input
     const validCharacters = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
     const sentenceEndCharacters = inputSentenceEndCharacters || ['.', '?', '!']
     const paragraphEndCharacter = inputParagraphEndCharacter || '\n'
