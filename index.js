@@ -1,6 +1,6 @@
 function writingStats(input, inputLineCount, inputAboveAverageBuffer, inputBelowAverageBuffer, inputSentenceEndCharacters, inputParagraphEndCharacter) {
     const fs = require('fs')
-    if (typeof inputFile !== 'string') {
+    if (typeof input !== 'string') {
         throw new Error('Parameter `inputFile` must be of type string!')
     }
     file = input
