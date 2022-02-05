@@ -24,35 +24,6 @@ console.log(writingStats(fs.readFileSync('essay.txt', 'utf-8')))
 ## Result
 ```js
 {
-  wordCount: 774,
-  characterCount: 3499,
-  rawCharacterCount: 4439,
-  sentenceCount: 57,
-  paragraphCount: 12,
-  longestSentence: 35,
-  shortestSentence: 1,
-  wordCountsPerSentence: [
-     6, 11,  9,  5, 13, 16,  2,  9, 14, 11, 11, 11,
-    11, 12, 19,  9, 12, 16, 12,  9, 12, 14,  9, 13,
-    19,  7, 16, 19, 10, 11, 35, 14, 25, 24,  1,  5,
-    12,  8, 14, 12, 16,  8, 10, 27, 23, 24, 19,  9,
-    25, 19, 18, 19, 13, 17, 10,  3, 16
-  ],
-  longestParagraph: 8,
-  shortestParagraph: 3,
-  sentenceCountsPerParagraph: [
-    6, 4, 4, 4, 8,
-    4, 3, 5, 6, 3,
-    5, 5
-  ],
-  aboveAverageSentences: 6,
-  belowAverageSentences: 9,
-  averageSentenceLength: 13.578947368421053,
-  averageParagraphLength: 4.75
-}
-
-ZoBro23(D:\Documents\My Stuff\Homeschool\English\From Structure to Style\writing-stats)--> node index.js
-{
   wordCount: 666, // total word count
   characterCount: 2830, // alphabets and number only
   rawCharacterCount: 3642, // all characters

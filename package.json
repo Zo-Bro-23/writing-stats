@@ -1,6 +1,6 @@
 {
   "name": "writing-stats",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "This is a simple package to get stats (such as word count, paragraph density, etc) from a TXT file.",
   "main": "index.js",
   "scripts": {
