@@ -9,17 +9,17 @@ console.log(writingStats(fs.readFileSync('essay.txt', 'utf-8')))
 
 ### **```writingStatus(input, lineCount, aboveAverageBuffer, belowAverageBuffer, sentenceEndCharacters, paragraphEndCharacter)```**
 
-```input - Input text - I would recommend using fs to read from a TXT file rather than pass a string because javascript doesn't handle some chracters such as apostrophes, new-line, etc```
+#### input - Input text - I would recommend using fs to read from a TXT file rather than pass a string because javascript doesn't handle some chracters such as apostrophes, new-line, etc
 
-```lineCount - Number of \n characters per paragraph```
+#### lineCount - Number of ```\n``` characters per paragraph
 
-```aboveAverageBuffer - Number of words (more than the average sentence length) needed to count as an "Above Average" sentence```
+#### aboveAverageBuffer - Number of words (more than the average sentence length) needed to count as an "Above Average" sentence
 
-```belowAverageBuffer - Number of words (less than the average sentence length) to count as a "Below Average" sentence```
+#### belowAverageBuffer - Number of words (less than the average sentence length) to count as a "Below Average" sentence
 
-```sentenceEndCharacters - List of characters (as Array) that mark the end of a sentence. For example, [".", "?", "!"]```
+#### sentenceEndCharacters - List of characters (as Array) that mark the end of a sentence. For example, ```[".", "?", "!"]```
 
-```paragraphEndCharacter - Character that marks the end of a paragraph - Newline character```
+#### paragraphEndCharacter - Character that marks the end of a paragraph - Newline character
 
 ## Result
 ```js
